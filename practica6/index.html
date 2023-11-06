@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Práctica 5 | Ibero Puebla</title>
+        <title>Práctica 6 | Ibero Puebla</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Motores </h1>
+                        <h1 class="fw-bolder mb-1">Electroneumática</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                             <img class="img-fluid rounded-circle" width="50px" src="assets/Cesar.jpg" alt="..." />
@@ -71,7 +71,7 @@
                             </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 27,2023</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Octubre 02,2023</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
                         <a class="badge bg-primary text-decoration-none link-light" >Neumática</a>
                         <a class="badge bg-primary text-decoration-none link-light" >Hidráulica</a>
@@ -86,18 +86,13 @@
             
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4">La neumática es la tecnología que emplea un gas (normalmente aire comprimido) como modo de transmisión de la energía necesaria para mover y hacer funcionar mecanismos y/o máquinas. Mientras que en la hidraúlica son los fluidos (líquidos y gases) los que se utilizan para la transmisión de potencia en la neumática es solo el aire comprimido. </p>
-                        <p class="fs-6 mb-4">En esta práctica el enfoque fue hacia la neumática, realizando y familarizandonos con los elemementos y conexiones basicas de este tipo de tecnología.</p>
+                        <p class="fs-6 mb-4">La electroneumática es una disciplina crucial en el campo de la automatización industrial que combina los principios de la electrónica y la neumática para controlar sistemas automatizados. Se basa en el uso de componentes electrónicos, como sensores, relés y PLCs (Controladores Lógicos Programables), para gestionar y controlar actuadores neumáticos y válvulas. Esto permite una mayor flexibilidad y precisión en comparación con los sistemas puramente neumáticos. </p>
+                        <p class="fs-6 mb-4">En esta práctica el enfoque se combinaron los conceptos y conocimientos previamente adquiridos de electronica y neumática para poder controlar de una forma más precisa la neumatica y poder automatizar procesos</p>
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <h2 class="fw-bolder mb-4 mt-5 fs-5">Hidraúlica</h2>
-                        <p class="fs-6 mb-4">La hidráulica se centra en el uso de fluidos incompresibles, como el aceite, para transmitir fuerza y movimiento. La principal ley que rige la hidráulica es la ley de Pascal, que establece que un cambio en la presión aplicada a un fluido incompresible se transmite de manera igual en todas las direcciones.
-                            La hidráulica se utiliza en una amplia variedad de aplicaciones industriales, desde maquinaria pesada como grúas y excavadoras hasta sistemas de frenos en vehículos y aeronaves. También se emplea en prensas industriales, sistemas de dirección asistida y en la operación de compuertas y válvulas en instalaciones hidroeléctricas.
-                            La hidráulica es crucial en la automatización industrial porque ofrece una forma eficiente de transmitir grandes cantidades de fuerza a largas distancias. Su capacidad para manejar cargas pesadas con precisión y control la convierte en una elección común en aplicaciones que requieren alta potencia y precisión.</p>
-                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >Neumática</h2>
-                        <p class="fs-6 mb-4">La neumática se basa en la transmisión de energía a través de gases compresibles, como el aire comprimido. La compresión del aire genera presión, que puede utilizarse para realizar trabajo mecánico.
-                            La neumática se emplea en una amplia gama de aplicaciones industriales, desde sistemas de automatización en líneas de producción hasta herramientas portátiles, como taladros y pistolas de impacto. También se utiliza en la operación de válvulas, actuadores y cilindros en maquinaria industrial.
-                            La neumática es esencial en la automatización industrial porque ofrece ventajas como la simplicidad, la rapidez de respuesta y la facilidad de control. Además, el aire comprimido es una fuente de energía abundante y económica en comparación con otros tipos de energía.</p>
+                        <p class="fs-6 mb-4">La electroneumática se apoya en la generación y distribución de aire comprimido, así como en el control de válvulas y actuadores mediante señales eléctricas. Los actuadores neumáticos, como cilindros y motores, convierten la energía del aire comprimido en movimiento mecánico.
+                            La electroneumática encuentra aplicaciones en una amplia gama de industrias, incluyendo la manufactura, la industria automotriz y la industria alimentaria. Se utiliza para automatizar procesos como ensamblaje, transporte, clasificación y manipulación de materiales. También es esencial en sistemas de control de maquinaria y en líneas de producción automatizadas.
+                            La electroneumática desempeña un papel fundamental en la automatización industrial moderna debido a su capacidad para integrar sistemas eléctricos y neumáticos, lo que proporciona una mayor versatilidad y precisión en la operación de maquinaria y procesos industriales. Permite la implementación de sistemas de control sofisticados que pueden adaptarse a diferentes situaciones y requerimientos.</p>
                         
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
@@ -106,6 +101,10 @@
                         <li>Valvula 3/2 NC</li>
                         <li>Valvula 5/2</li>
                         <li>Manguera</li>
+                        <li>Relevadores 24 Volts</li>
+                        <li>Interruptor Termomagnetico</li>
+                        <li>Leds AC</li>
+                        <li>Solenoide de una bobina</li>
                        
                     
                         
@@ -126,14 +125,7 @@
                                     <figure class="mb-4" align="center"><img class="img-fluid rounded"   src="img/c2.png" alt="..." /></figure>
                                   </div>
                                 </div>
-                                <div class="row align-items-center">
-                                    <div class="col">
-                                      <figure class="mb-4" align="center"><img class="img-fluid rounded"   src="img/c3.png" alt="..." /></figure>
-                                    </div>
-                                    <div class="col">
-                                      <figure class="mb-4" align="center"><img class="img-fluid rounded"   src="img/c4.png" alt="..." /></figure>
-                                    </div>
-                                  </div>
+                                <figure class="mb-4" align="center"><img class="img-fluid rounded"   src="img/c3.png" alt="..." /></figure>
                               </div>
                             
                             <p id="diseño">
@@ -153,61 +145,52 @@
                         <div class="container">
                             <div class="row">
                               <div class="col">
-                                <p>En este circuito al presionar el boton de la valvula el piston de efecto simple se desplaza y al soltarlo regresa a su posición inicial.</p>
+                                <p>En este circuito al tener el paro de emergencia liberado y al presionar el switch 3, se energiza la bobina del relevador que energiza la bobina de la valvula 3/2 que desplaza el piston de efecto simple, al presionar el switch 2, ambas bobinas se desactivan y el piston vuelve a su posición inicial.</p>
                                 <figure class="mb-4" align="center"><video width="450" height="315"  controls>
-                                    <source src="video/v1.mp4" type="video/mp4">
+                                    <source src="video/6_1.mp4" type="video/mp4">
                                 </video></p></figure>
                               </div>
                               <div class="col">
-                                <p>En este circuito, la presionar el boton de la valvula el piston de efecto simple se desplaza pero al ser de efecto hidraulico, regresa más suavemente hacia su posición inicial </p>
+                                <p>En este circuito al tener el paro de emergencia liberado y al presionar el switch 3, se energiza la bobina del relevador que energiza la bobina de la valvula 5/2 que desplaza el piston de efecto simple hidraulico, al presionar el switch 2, ambas bobinas se desactivan y el piston vuelve suavemente a su posición inicial.</p>
                                 <figure class="mb-4" align="center"><video width="450" height="315"  controls>
-                                    <source src="video/v2.mp4" type="video/mp4">
+                                    <source src="video/6_2.mp4" type="video/mp4">
                                 </video></p></figure>
                               </div>
                             </div>
-                            <div class="row">
-                              <div class="col">
-                                <p>En este circuito, al presionar el boton de la valvula el piston de doble efecto se desplaza, si se mantiene el boton el piston mantiene su posicion, al sotarlo regresa a su posición inicial.</p>
+                            <p>En este circuito al tener el paro de emergencia liberado y al presionar el switch 9 se energiza la bobina del relevador 3 para permiter el flujo de corriente hacia las otras dos vias, al presionar el switch 12, se energiza el relevador 4 que activa la bobina del valvula 5/2 que mueve el piston de efecto doble, al presionar el switch 11 vuelve a su posicion inicial. Al presionar el switch 15 se energiza el relevador 5 para activar la bobina de la valvula 3/2 para desplazar el piston de efecto simple, al presionar el switch 14 vuelve a su posicion inicial.</p>
                                 <figure class="mb-4" align="center"><video width="450" height="315"  controls>
-                                    <source src="video/v3.mp4" type="video/mp4">
+                                    <source src="video/6_3.mp4" type="video/mp4">
                                 </video></p></figure>
-                              </div>
-                              <div class="col">
-                                <p>En este circuito, al presionar el boton de la valvula el piston de doble efecto se desplaza pero al ser de efecto hidraulico lo hace más suavemente, si se mantiene el boton el piston mantiene su posicion, al sotarlo regresa más suavemente a su posición inicial.</p>
-                                <figure class="mb-4" align="center"><video width="450" height="315"  controls>
-                                    <source src="video/v4.mp4" type="video/mp4">
-                                </video></p></figure>
-                              </div>
-                            </div>
                             
                         </div>
                         <p class="fs-6 mb-4">A continuación se muestran los videos de los circuitos fisicos: </p>
-                        <p class="fs-6 mb-4">No se contaba con los pistones hidraulicos. </p>
+                        <p class="fs-6 mb-4">No se contaba con los pistones hidraulicos.</p>
                         <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col">
-                                    <p>En este circuito al presionar el boton de la valvula el piston de efecto simple se desplaza y al soltarlo regresa a su posición inicial.</p>
+                            <p>En este circuito al tener el paro de emergencia liberado y al presionar el switch rojo de la izquierda (enciende led verde) se energiza la bobina del relevador 1 para permiter el flujo de corriente hacia las otras dos vias, 
+                                al presionar los dos  botones rojos de abajo se energiza el segundo relevador que permite el movimiento del piston de efecto simple, al presionar el segundo boton regresa a su posición inicial, ademas de encender el led,
+                                al presionar los dos botones verdes de arriba se energiza el tercer relevador que permite el movimiento del piston de efecto doble, al presionar el segundo boton regresa a su posicion inicial, ademas de encerder el otro led. </p>
                                     <figure class="mb-4" align="center"><video width="450" height="315"  controls>
                                         <source src="video/f1.mp4" type="video/mp4">
                                     </video></p></figure>
-                                </div>
-                                <div class="col">
-                                    <p>En este circuito, al presionar el boton de la valvula el piston de doble efecto se desplaza, si se mantiene el boton el piston mantiene su posicion, al sotarlo regresa a su posición inicial.</p>
-                                    <figure class="mb-4" align="center"><video width="450" height="315"  controls>
-                                        <source src="video/f2.mp4" type="video/mp4">
-                                    </video></p></figure>
-                                </div>
+                        <p><b>Diferencia entre circuito neumático y electroneumático:</b> La principal diferencia es que mediante la electroneumática podemos programar una logica más complicada y automatica para el control de los elementos neumáticos, lo que nos permite hacer procesos totalmente automatizados sin la necesidad de un accionamiento manual.</p>
+                        
+                        <p><b>Diferencia entre primer y segundo circuito:</b> Se utiliza un piston de efecto doble hidraulico y una valvula 5/2, los componentes electronicos son los mismos y el funcionamiento es el mismo practicamente.</p>
+                        <p class="fs-6 mb-4">Tabla Comparativa::</p>
+                        <div class="container">
+                            <div class="row align-items-center">
+            
+                              <div class="col">
+                                <figure class="mb-4" align="center"><img class="img-fluid rounded"   src="img/tabla.png" alt="..." /></figure>
                               </div>
-                              
+                            </div>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"   src="img/tabla2.png" alt="..." /></figure>
                           </div>
                         
-                        <p class="fs-6 mb-4">Tabla Comparativa::</p>
-                        <figure class="mb-4" align="center"><img class="img-fluid rounded"   src="img/tabla.png" alt="..." /></figure>
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
                         <p class="fs-6 mb-4">Se lograron construir los circuitos propuestos por el profesor, obteniendo el comportamiento deseado, todo dentro del panel de control construido.</p>
-                        <p class="fs-6 mb-4">El uso de la hidraúlica y neumática en la automatización industrial es de suma importancia ya que nos permite mover o cargar objetos y moldear productos. A pesar de que es una tecnología sencilla de aplicar debe de tener el mantenimiento y uso adecuado. </p>
+                        <p class="fs-6 mb-4">La electroneumática nos permite controlar automaticamente los elementos neumaticos tradicionales, con esto logramos modelar procesos más complejos y tener un abanico más amplio de productos o procesos a realizar.</p>
                         
 
                         <p id="referencias">
